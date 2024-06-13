@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="learing HTML ig">
+    <title>Children are tasty</title>
+</head>
+<body>
+    <h1>
+    Title
+    </h1>
+    <hr>
+    <h1><a href="Page2.html" target="_blank" title="This takes you to page 2">Go to Page 2</a></h1>
+    <br>
+    <h1><a href="mailto:liorkos55555@gmail.com" target="_blank" title="Mail me">Mail me</a></h1>
+    <br>
+    <br>
+    <a href="Page2.html"><img src="Screenshot 2024-06-07 155829.png" height="300" alt="דז" title="דז"></a>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <audio controls loop src="Mozart-Turkish_March.mp3">nope</audio>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <video controls height="600" src="2024-03-05 14-58-23.mp4">nope</video>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h1><b>THIS IS BOLD</b></h1>
+    <br>
+    <h1><i>this is italiano</i></h1>
+    <br>
+    <h1><big style="color:yellow;">this is big and yellow</big> <small><small><small><small><small><small><small>hehehe</small></small></small></small></small></small></small></h1>
+    <br>
+    <h6><small><small><small><small><small><small><small>this is small</small></small></small></small></small></small></small></h6>
+    <br>
+    <br>
+    <ul>
+        <li>10</li>
+        <li>23</li>
+        <li>1</li>
+    </ul>
+    <br>
+    <br>
+    <br>
+    <br>
+    <table bgcolor="black" height="150" width="700">
+        <tr bgcolor="gray">
+            <th width = 100><big>sunday</big></th>
+            <th width = 100><big>monday</big></th>
+            <th width = 100><big>tuesday</big></th>
+            <th width = 100><big>wendsday</big></th>
+            <th width = 100><big>thursday</big></th>
+            <th width = 100><big>friday</big></th>
+            <th width = 100><big>saturday</big></th>
+        </tr>
+        <tr bgcolor="lightgray" align="center">
+            <td><big>9-5</big></td>
+            <td><big>9-5</big></td>
+            <td><big>9-5</big></td>
+            <td><big>9-5</big></td>
+            <td><big>9-5</big></td>
+            <td><big>9-5</big></td>
+            <td><big>9-5</big></td>
+            
+        </tr>
+    </table>
+    <br>
+    <br>
+    <br>
+    <iframe height="500" width="500" src="Page2.html" style="border: 0;"></iframe>
+    <br>
+    <br>
+    <br>
+    <center><button onclick="Hamood()" style="border-radius: 25px;"><h1>click me</h1></button></center>
+    <br>
+    <center><p><h1 id="test">Hamood</h1></p></center>
+    <br>
+    <br>
+    <br>
+    <br>
+    <center><button onclick="Count()" style="border-radius: 25px;"><h1>counter + 1</h1></button></center>
+    <br>
+    <br>
+    <br>
+    <center><p><h1 id="counter">counter : 0</h1></p></center>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    
+    <script>
+        var count = 0
+        function Hamood(){
+            if (document.getElementById("test").innerHTML == "Hamood")
+                document.getElementById("test").innerHTML = "Habibi"
+            else{
+                document.getElementById("test").innerHTML = "Hamood"
+            }
+        }
+        function Count(){
+            count++
+            document.getElementById("counter").innerHTML = "counter : " + count
+        }
+    </script>
+</body>
+</html>
