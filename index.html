@@ -96,10 +96,11 @@
     <br>
     <br>
     <br>
+    <center><button onclick="PlayAudio(), Hamood(), Count()" style="border-radius: 25px;"><h1>hehehe noise maker 3000</h1></button></center>
 
-    
     <script>
         var count = 0
+        var audio = new Audio("click.wav")
         function Hamood(){
             if (document.getElementById("test").innerHTML == "Hamood")
                 document.getElementById("test").innerHTML = "Habibi"
@@ -110,6 +111,9 @@
         function Count(){
             count++
             document.getElementById("counter").innerHTML = "counter : " + count
+        }
+        function PlayAudio(){
+            audio.play()
         }
     </script>
 </body>
