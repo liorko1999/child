@@ -6,14 +6,15 @@
     <meta name="description" content="learing HTML ig">
     <title>Children are tasty</title>
 </head>
-<body>
+<body id="image-label">
+
     <h1>
     Title
     </h1>
     <hr>
     <h1><a href="Page2.html" target="_blank" title="This takes you to page 2">Go to Page 2</a></h1>
     <br>
-    <h1><a href="mailto:liorkos55555@gmail.com" target="_blank" title="Mail me">Mail me</a></h1>
+    <h1><a href="mailto:turi.pob@gmail.com" target="_blank" title="Mail me">Mail me</a></h1>
     <br>
     <br>
     <a href="Page2.html"><img src="Screenshot 2024-06-07 155829.png" height="300" alt="דז" title="דז"></a>
@@ -97,24 +98,34 @@
     <br>
     <br>
     <center><button onclick="PlayAudio(), Hamood(), Count()" style="border-radius: 25px;"><h1>hehehe noise maker 3000</h1></button></center>
-
-    <script>
-        var count = 0
-        var audio = new Audio("click.wav")
-        function Hamood(){
-            if (document.getElementById("test").innerHTML == "Hamood")
-                document.getElementById("test").innerHTML = "Habibi"
-            else{
-                document.getElementById("test").innerHTML = "Hamood"
-            }
-        }
-        function Count(){
-            count++
-            document.getElementById("counter").innerHTML = "counter : " + count
-        }
-        function PlayAudio(){
-            audio.play()
-        }
-    </script>
+    <br>
+    <br>
+    <br>
+    <br>
+    <center><button onclick="shuffle(arr), Visualize(arr)" style="border-radius: 25px;"><h1>Randomize array</h1></button></center>
+    <center><button onclick="Bubblesort(arr), Visualize(arr)" style="border-radius: 25px;"><h1>Sort array</h1></button></center>
+    <br>
+    <br>
+    <br>
+    <br>
+    <center><button onclick="CountStore()" style="border-radius: 25px;"><h1>count Store</h1></button></center>
+    <br>
+    <center><button onclick="ResetCount()" style="border-radius: 25px;"><h1>count Reset</h1></button></center>
+    <br>
+    <br>
+    <h1 id="count store"></h1>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h1 >hahahahajhishfjuiahgsfjkhabsfkhgasdfkjh</h1>
+    <br>
+    <input type="file" onchange="previewFile()"><br>
+    <img id="help me please">
+    <script src="code.js"></script>
 </body>
 </html>
